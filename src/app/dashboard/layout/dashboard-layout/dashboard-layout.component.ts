@@ -15,4 +15,10 @@ public user = computed(()=>this.authService.currentUser())
 // get user(){
 //   return this.authService.currentUser();
 // }
+
+
+onLogout(){
+  this.authService.logout();
+}
+
 }
